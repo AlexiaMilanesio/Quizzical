@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import StartScreen from './components/StartScreen';
+import Questions from './components/Questions';
 
-function App() {
+export default function App() {
+  const [showQuiz, setShowQuiz] = useState(false);
+
+  function startQuiz() {
+    setShowQuiz(true);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="general-container">
+      {!showQuiz 
+        ? <StartScreen startQuiz={startQuiz} /> 
+        : <Questions />
+      }
     </div>
   );
 }
-
-export default App;

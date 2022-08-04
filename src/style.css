@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #11152a;
+    margin: 0;
+  }
+  
+  .general-container {
+    background-image: linear-gradient(-300deg, #DEEBF8, #FFFAD1);
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #293264;
+    font-weight: 400;
+    font-size: 1.05em;
+  }
+  
+  /* Start Screen */
+  .start-screen {
+    text-align: center;
+    padding: 30% 10%;
+  }
+  
+  .title {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 7px;
+  }
+  
+  .instructions {
+    margin-bottom: 40px;
+  } 
+  
+  /* Buttons */
+  .start-btn, .check-btn, .reset-btn{
+    width: 200px;
+    height: 60px;
+    background-color: #4D5B9E;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #F5F7FB;
+    margin-bottom: 50px;
+  }
+  
+  .start-btn:hover, .check-btn:hover, .reset-btn:hover{
+    background-color: #606a9c;
+    cursor: pointer;
+  }
+  
+  .start-btn:active, .check-btn:active, .reset-btn:active{
+    background-color: #323b67;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+  }
+  
+  .check-btn, .reset-btn {
+    width: 180px;
+    height: 50px;
+    background-color: #4D5B9E;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+  } 
+  
+  /* Quiz page */
+  .quiz-container {
+    padding: 0 80px;
+    padding-top: 50px;
+  }
+  
+  .question-container {
+    margin: 20px 0px;
+  }
+  
+  .question {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 19px;
+    color: #293264;
+    margin-bottom: 10px;
+  }
+  
+  .answer-box {
+    border: 1.2px solid #4D5B9E;
+    border-radius: 10px;
+    background-color: #F5F7FB;
+    display: inline-block;
+    margin: 3px 8px;
+    height: 25px;
+    padding: 4px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #293264;
+    margin-top: 4px;
+    cursor: pointer;
+  }
+  
+  .line {
+    margin-top: 15px;
+    border: 0.3px solid #DBDEF0;
+    background-color: #DBDEF0;
+  }
+  
+  /* Results */
+  .results-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  
+  .results {
+    font-weight: 700;
+    font-size: 20px;
+    color: #293264;
+  }
