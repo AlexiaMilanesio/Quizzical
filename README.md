@@ -1,6 +1,6 @@
 # Quizzical - Are you a movie freak? 📽️
 
-**Deploy Link:** [Quizzical](https://quizzical-alexia.netlify.app/)
+**Deployment link:** [Quizzical](https://quizzical-alexia.netlify.app/)
 
 **Description & technologies:** 
 This app was built using HTML, CSS and JavaScript. 
